@@ -1,0 +1,40 @@
+h1{
+    color: rgb(75, 74, 74);
+    font-size: 64px;
+}
+
+.title{
+    
+    width: 80;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    box-shadow: 20px 20px 10px rgba(75, 74, 74,.4) ;
+    transition: 1s;
+}
+
+img:hover{
+    transform: translateX(100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+a{
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.name{
+    font-size: 30px;
+    color: rgb(151, 151, 151);
+}
