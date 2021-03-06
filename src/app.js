@@ -6,9 +6,11 @@ const weather = require('./utils/weather')
 
 var app = express()
 
-var filepath = path.join(__dirname + '\\public')
-var viewspath = path.join(__dirname + '\\templates\\views')
-var partialpath = path.join(__dirname + '\\templates\\partial')
+var filepath = path.join(__dirname , '..\\public')
+var viewspath = path.join(__dirname , '..\\templates\\views')
+var partialpath = path.join(__dirname , '..\\templates\\partial')
+
+var port = process.env.port || 1000
 
 app.use(express.static(filepath))
 
@@ -103,13 +105,7 @@ app.get('*', (req,res)=>{
 
 
 
-
-
-
-
-
-
-app.listen(1000,()=>{
+app.listen(port,()=>{
     console.log('server on')
 })
 

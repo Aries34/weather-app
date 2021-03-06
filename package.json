@@ -3,5 +3,23 @@
     "express": "^4.17.1",
     "hbs": "^4.0.1",
     "request": "^2.88.0"
-  }
+  },
+  "name": "weather_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+   "start":"node src\\app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aries34/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aries34/weather-app/issues"
+  },
+  "homepage": "https://github.com/Aries34/weather-app#readme",
+  "description": ""
 }
